@@ -97,11 +97,11 @@ In this second section, we created a set of functions that either expand upon th
 This section of the 42-Libft/blob/master library encompasses a collection of functions and data structures tailored for efficient linked list handling and structured data organization. Included are essential operations for creating, manipulating, and traversing linked lists, as well as utility functions for managing custom data structures using structs.
 |                                        *                                             |                                *                                |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-|[ft_lstnew](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstnew.c)|[ft_lstadd_front](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstadd_front.c)|
-|[ft_lstsize](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstsize.c)|[ft_lstlast](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstlast.c)|
-|[ft_lstadd_back](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstadd_back.c)|[ft_lstdelone](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstdelone.c)|
-|[ft_lstclear](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstclear.c)|[ft_lstiter](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstiter.c)|
-|[ft_lstmap](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstmap.c)|
+|[ft_lstnew](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstnew_bonus.c)|[ft_lstadd_front](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstadd_front_bonus.c)|
+|[ft_lstsize](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstsize_bonus.c)|[ft_lstlast](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstlast_bonus.c)|
+|[ft_lstadd_back](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstadd_back_bonus.c)|[ft_lstdelone](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstdelone_bonus.c)|
+|[ft_lstclear](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstclear_bonus.c)|[ft_lstiter](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstiter_bonus.c)|
+|[ft_lstmap](https://github.com/alicebaghunts/42-Libft/blob/master/ft_lstmap_bonus.c)|
 
 ---
 
