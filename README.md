@@ -1,9 +1,9 @@
-# 42-Libft/blob/master
-The 42-Libft/blob/master project is a custom C library, providing a comprehensive set of standard C functions for tasks like string manipulation, memory allocation, and linked list handling.  
+# 42-Libft
+The 42-Libft project is a custom C library, providing a comprehensive set of standard C functions for tasks like string manipulation, memory allocation, and linked list handling.  
 
-All the functions we've created in this repo are linked and packaged up into a static library called 42-Libft/blob/master.a.  
+All the functions we've created in this repo are linked and packaged up into a static library called 42-Libft.a.  
 Think of it as a handy toolbox for essential C utilities. We can link this library to our other projects and tap into this treasure trove of helpful functions.
-42-Libft/blob/master is a solid foundation to build upon, for many of our future projects.  
+42-Libft is a solid foundation to build upon, for many of our future projects.  
 
 Our own trusty sidekick for coding in C!
 
@@ -22,29 +22,29 @@ Our own trusty sidekick for coding in C!
 
 - **Clone the repository:**
 
-  Either use the following command in your terminal: `git clone https://github.com/alicebaghunts/42-Libft/blob/master.git`  
+  Either use the following command in your terminal: `git clone https://github.com/alicebaghunts/42-Libft.git`  
   Or Click the green "Code" button in the upper right corner to download the zip file and then unzip it.
 
 - **Compile the library using the cmd** &nbsp;&nbsp;`make`
 - **Include Header Files:**
   
-  In your C source file (.c), include the necessary header files from 42-Libft/blob/master. This allows your code to access the function declarations.  
-  For example, if you want to use ft_strlen, include 42-Libft/blob/master.h at the beginning of your file: `#include 42-Libft/blob/master`
+  In your C source file (.c), include the necessary header files from 42-Libft. This allows your code to access the function declarations.  
+  For example, if you want to use ft_strlen, include 42-Libft.h at the beginning of your file: `#include 42-Libft`
   
 - **Link the Library:**
   
-  When compiling your program, you need to tell the compiler to include the 42-Libft/blob/master library.  
+  When compiling your program, you need to tell the compiler to include the 42-Libft library.  
   This is done using the -L flag (to specify the library directory) and -l flag (to specify the library name).  
-  Assuming your 42-Libft/blob/master.a is located in a directory named lib within your project directory, you would compile like this:
+  Assuming your 42-Libft.a is located in a directory named lib within your project directory, you would compile like this:
   
   `gcc -o <your_program> <your_program.c> -L./lib -lft`
   
-  Here, <your_program> is the name of your executable, <your_program.c> is your source file, and -L./lib specifies the library directory as ./lib, while -lft specifies that it should link with 42-Libft/blob/master.a.
+  Here, <your_program> is the name of your executable, <your_program.c> is your source file, and -L./lib specifies the library directory as ./lib, while -lft specifies that it should link with 42-Libft.a.
 
 - **Compile and Run:**
   
-  Now, compile your program as usual. The compiler will use the functions from 42-Libft/blob/master.a while building your program.
-  When you run your program, it will have access to all the functions from 42-Libft/blob/master.
+  Now, compile your program as usual. The compiler will use the functions from 42-Libft.a while building your program.
+  When you run your program, it will have access to all the functions from 42-Libft.
 
 **As of now the instruction only partain to creating the static library on MacOS. Use on linux or windows systems at your own risk ;)*
 
@@ -52,7 +52,7 @@ Our own trusty sidekick for coding in C!
 
 ## The Library
 
-Our 42-Libft/blob/master library is divided into three sections according to intructions in the subject file:
+Our 42-Libft library is divided into three sections according to intructions in the subject file:
 
 - Recreated/reimplemented Standard C Functions:  
   These functions replicate the behavior of their standard C library (libc) counterparts.
